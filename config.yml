@@ -1,0 +1,10 @@
+soap_client:
+    namespaces:
+        'urn:ec.europa.eu:taxud:vies:services:checkVat': GoetasWebservices\Client\EuroVies
+        'urn:ec.europa.eu:taxud:vies:services:checkVat:types': GoetasWebservices\Client\EuroVies\Types
+    destinations_php:
+        GoetasWebservices\Client\EuroVies: src
+    destinations_jms:
+        GoetasWebservices\Client\EuroVies: metadata
+    metadata:
+        'http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl': null

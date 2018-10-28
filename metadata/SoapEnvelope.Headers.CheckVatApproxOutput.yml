@@ -1,0 +1,3 @@
+GoetasWebservices\Client\EuroVies\SoapEnvelope\Headers\CheckVatApproxOutput:
+    xml_namespaces:
+        SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'

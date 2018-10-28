@@ -1,0 +1,24 @@
+GoetasWebservices\Client\EuroVies\Types\CheckVat:
+    xml_root_name: checkVat
+    xml_root_namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+    properties:
+        countryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: countryCode
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getCountryCode
+                setter: setCountryCode
+            type: string
+        vatNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: vatNumber
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getVatNumber
+                setter: setVatNumber
+            type: string

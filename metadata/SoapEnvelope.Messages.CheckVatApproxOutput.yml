@@ -1,0 +1,26 @@
+GoetasWebservices\Client\EuroVies\SoapEnvelope\Messages\CheckVatApproxOutput:
+    xml_root_name: 'SOAP:Envelope'
+    xml_root_namespace: 'http://schemas.xmlsoap.org/soap/envelope/'
+    xml_namespaces:
+        SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'
+    properties:
+        body:
+            expose: true
+            access_type: public_method
+            type: GoetasWebservices\Client\EuroVies\SoapParts\CheckVatApproxOutput
+            serialized_name: Body
+            xml_element:
+                namespace: 'http://schemas.xmlsoap.org/soap/envelope/'
+            accessor:
+                getter: getBody
+                setter: setBody
+        header:
+            expose: true
+            access_type: public_method
+            type: GoetasWebservices\SoapServices\SoapClient\Arguments\Headers\Handler\HeaderPlaceholder
+            serialized_name: Header
+            xml_element:
+                namespace: 'http://schemas.xmlsoap.org/soap/envelope/'
+            accessor:
+                getter: getHeader
+                setter: setHeader

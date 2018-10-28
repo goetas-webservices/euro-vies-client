@@ -1,0 +1,94 @@
+GoetasWebservices\Client\EuroVies\Types\CheckVatApprox:
+    xml_root_name: checkVatApprox
+    xml_root_namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+    properties:
+        countryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: countryCode
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getCountryCode
+                setter: setCountryCode
+            type: string
+        vatNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: vatNumber
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getVatNumber
+                setter: setVatNumber
+            type: string
+        traderName:
+            expose: true
+            access_type: public_method
+            serialized_name: traderName
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getTraderName
+                setter: setTraderName
+            type: string
+        traderCompanyType:
+            expose: true
+            access_type: public_method
+            serialized_name: traderCompanyType
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getTraderCompanyType
+                setter: setTraderCompanyType
+            type: string
+        traderStreet:
+            expose: true
+            access_type: public_method
+            serialized_name: traderStreet
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getTraderStreet
+                setter: setTraderStreet
+            type: string
+        traderPostcode:
+            expose: true
+            access_type: public_method
+            serialized_name: traderPostcode
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getTraderPostcode
+                setter: setTraderPostcode
+            type: string
+        traderCity:
+            expose: true
+            access_type: public_method
+            serialized_name: traderCity
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getTraderCity
+                setter: setTraderCity
+            type: string
+        requesterCountryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: requesterCountryCode
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getRequesterCountryCode
+                setter: setRequesterCountryCode
+            type: string
+        requesterVatNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: requesterVatNumber
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getRequesterVatNumber
+                setter: setRequesterVatNumber
+            type: string

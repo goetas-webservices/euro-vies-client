@@ -1,0 +1,64 @@
+GoetasWebservices\Client\EuroVies\Types\CheckVatResponse:
+    xml_root_name: checkVatResponse
+    xml_root_namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+    properties:
+        countryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: countryCode
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getCountryCode
+                setter: setCountryCode
+            type: string
+        vatNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: vatNumber
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getVatNumber
+                setter: setVatNumber
+            type: string
+        requestDate:
+            expose: true
+            access_type: public_method
+            serialized_name: requestDate
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getRequestDate
+                setter: setRequestDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        valid:
+            expose: true
+            access_type: public_method
+            serialized_name: valid
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getValid
+                setter: setValid
+            type: bool
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: address
+            xml_element:
+                namespace: 'urn:ec.europa.eu:taxud:vies:services:checkVat:types'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: string
