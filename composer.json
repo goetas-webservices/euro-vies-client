@@ -3,7 +3,8 @@
     "authors": [
         {
             "name": "Asmir Mustafic",
-            "email": "goetas@gmail.com"
+            "email": "goetas@gmail.com",
+            "homepage": "https://www.goetas.com"
         }
     ],
     "license": "MIT",
